@@ -1,0 +1,87 @@
+/* Body background and font */
+body{
+	background: linear-gradient(-45deg,#000000, #3E065F, #700B97, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Main heading */
+.heading {
+  color: #bae8e8;
+}
+
+/* Countdown timer */
+.timer {
+  color: #ffffff;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid #fff;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+/* remove the padding on the play button */
+.btn {
+  padding: 0;
+}
+
+/* play and reset icons */
+.fa-play,
+.fa-redo-alt {
+  color: #e3f6f5;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+  color: #bae8e8;
+  border: 2px solid #bae8e8;
+  transition: 0.3s ease;
+}
+
+/* Dynamic class */
+/* Make the message visible */
+.show_message {
+  display: block;
+  padding: 1rem 0;
+  color: #272343;
+  background: #e3f6f5;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+}
+.fa-home{
+  margin-top: 1%;
+  margin-left: 1%;
+  color: #ffffff;
+}
+
+

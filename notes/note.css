@@ -1,0 +1,43 @@
+.head{
+    text-align: center;
+}
+body{
+	background: linear-gradient(-45deg,#000000, #3E065F, #700B97, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.card{
+    color: rgb(243, 243, 243);
+    background-color: #393434;
+}
+#addTxt{
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+	margin-bottom: 30px;
+}
+.btn{
+	color: black;
+	background-color: aqua;
+}
+.fa-home{
+	margin-top: 1%;
+	margin-left: 1%;
+	color: #ffffff;
+  }
